@@ -191,7 +191,7 @@
 				<key>Comment</key>
 				<string>MMIO 0xFE000000 (0x11 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -199,7 +199,7 @@
 				<key>Comment</key>
 				<string>MMIO 0xFEC00000 (0x1 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -207,7 +207,7 @@
 				<key>Comment</key>
 				<string>MMIO 0xFED00000 (0x1 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -215,7 +215,7 @@
 				<key>Comment</key>
 				<string>MMIO 0xFEE00000 (0x1 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -573,7 +573,7 @@
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
-			<string></string>
+			<string>19.0.0</string>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -905,10 +905,10 @@
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
+			<key>AppleXcpmExtraMsrs</key>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
-			<key>AppleXcpmExtraMsrs</key>
-			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomPciSerialDevice</key>
@@ -1132,6 +1132,10 @@
 			<dict>
 				<key>rtc-blacklist</key>
 				<data></data>
+				<key>revcpuname</key>
+				<string>10-Core Intel i5-12600K</string>
+				<key>revcpu</key>
+				<integer>1</integer>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -1142,7 +1146,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 acid=1</string>
+				<string>-v keepsyms=1 debug=0x100 -wegnoigpu alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
