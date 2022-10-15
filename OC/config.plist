@@ -1285,7 +1285,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<string>Generic</string>
+			<integer>3842</integer>
 			<key>ROM</key>
 			<data>VJ8TpcZl</data>
 			<key>SpoofVendor</key>
