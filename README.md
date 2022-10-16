@@ -10,6 +10,9 @@
 
 ![About Mac](https://user-images.githubusercontent.com/33605526/196028608-c793e437-f712-4477-8fcd-d904fba3d674.png)
 
+![CPU Benchmark](https://user-images.githubusercontent.com/33605526/196029372-58923acb-a3c3-42b9-ba35-1c1c60ee9568.png)
+
+
 ## What's Working:
 
 - [x] Ethernet
