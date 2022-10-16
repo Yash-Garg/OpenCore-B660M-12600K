@@ -30,15 +30,15 @@
 ## What's Working:
 
 - [x] Ethernet
-- [x] Audio In/Out (Motherboard and Front Panel)
+- [x] Audio In/Out **(Motherboard and Front Panel)**
 - [x] All USB Ports
 - [x] GPU with Metal Support
-- [x] Sleep/Wake/Restart/Shut Down (works with TPM enabled)
-- [x] USB Devices (Webcam, Keyboard, Mouse, etc.)
+- [x] Sleep/Wake/Restart/Shut Down **(works with TPM enabled)**
+- [x] USB Devices **(Webcam, Keyboard, Mouse, etc.)**
+- [x] Secure Boot **(Follow [this guide](https://github.com/perez987/OpenCore-and-UEFI-Secure-Boot))**
 - [ ] Type C Port
-- [ ] Display Ports (couldn't check)
-- [ ] Secure Boot
-- [ ] DRM (won't work on my GPU)
+- [ ] Display Ports **(couldn't check)**
+- [ ] DRM **(won't work on my GPU)**
 
 ## Credits:
 
