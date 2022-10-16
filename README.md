@@ -18,8 +18,10 @@
 - MSI PRO B660M-A DDR4
   - Audio Realtek [ALC897](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) `alcid=11`
   - Realtek Gaming 2.5GbE Family Controller
-- Samsung SSD 970 EVO Plus 500GB (Windows)
-- WD Passport 500GB External HDD (macOS)
+- NVIDIA GeForce GT 710 **(currently using as it's natively supported)**
+- NVIDIA GeForce GT 1030 **(revert [043b44](https://github.com/Yash-Garg/OpenCore-B660M-12600K/commit/043b4400f6ddc1516d042cb8f3a7ff76529b3adb) and install [webdrivers](https://elitemacx86.com/threads/how-to-enable-nvidia-webdrivers-on-macos-big-sur-and-monterey.926/))**
+- Samsung SSD 970 EVO Plus 500GB **(Windows)**
+- WD Passport 500GB External HDD **(macOS)**
 - 2 x Seagate 1TB Barracuda 7200RPM HDD
 - Lenovo 300 FHD Webcam
 - MSI G241V Gaming Monitor 75Hz
