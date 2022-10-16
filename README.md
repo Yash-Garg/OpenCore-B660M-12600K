@@ -16,6 +16,7 @@
 - [x] Audio In/Out (Motherboard and Front Panel)
 - [x] All USB Ports
 - [x] GPU (based on webdrivers, no hardware acceleration)
+- [x] Sleep/Wake/Restart/Shut Down
 - [x] USB Devices (Webcam, Keyboard, Mouse, etc.)
 - [ ] Type C Port
 - [ ] Secure Boot & TPM
