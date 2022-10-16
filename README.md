@@ -12,14 +12,36 @@
 
 ![CPU Benchmark](https://user-images.githubusercontent.com/33605526/196029372-58923acb-a3c3-42b9-ba35-1c1c60ee9568.png)
 
+## Specifications:
+
+- 12th Gen Intel Alder Lake Core i5 - 12600K
+- MSI PRO B660M-A DDR4
+  - Audio Realtek [ALC897](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) `alcid=11`
+  - Realtek Gaming 2.5GbE Family Controller
+- Samsung SSD 970 EVO Plus 500GB (Windows)
+- WD Passport 500GB External HDD (macOS)
+- 2 x Seagate 1TB Barracuda 7200RPM HDD
+- Lenovo 300 FHD Webcam
+- MSI G241V Gaming Monitor 75Hz
+- Corsair 4000D Black Case
+
 ## What's Working:
 
 - [x] Ethernet
 - [x] Audio In/Out (Motherboard and Front Panel)
 - [x] All USB Ports
 - [x] GPU with Metal Support
-- [x] Sleep/Wake/Restart/Shut Down
+- [x] Sleep/Wake/Restart/Shut Down (works with TPM enabled)
 - [x] USB Devices (Webcam, Keyboard, Mouse, etc.)
 - [ ] Type C Port
-- [ ] Secure Boot & TPM
-- [ ] DRM
+- [ ] Display Ports (couldn't check)
+- [ ] Secure Boot
+- [ ] DRM (won't work on my GPU)
+
+## Credits:
+
+- [OpenCore Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
+
+- [OpenCore Alder Lake (12th-Gen Intel) Hackintosh Guidance](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/)
+
+- [OpenCore-Install-Guide by alyxferrari](https://github.com/alyxferrari/OpenCore-Install-Guide/blob/alderlake/config.plist/alder-lake.md)
