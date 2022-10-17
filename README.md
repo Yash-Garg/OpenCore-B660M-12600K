@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode |  SMBIOS   |  macOS  | Version |
 | :--------: | :-----: | :-------: | :-------: | :-----: | :-----: |
-|  OpenCore  |  0.8.5  |   UEFI    | MacPro7,1 | Big Sur, Monterey |  11.7   |
+|  OpenCore  |  0.8.5  |   UEFI    | MacPro7,1 | Big Sur, Monterey |  11.7, 12.6   |
 
 ---
 
@@ -37,7 +37,7 @@
 - [x] GPU with Metal Support
 - [x] Sleep/Wake/Restart/Shut Down **(works with TPM enabled)**
 - [x] USB Devices **(Webcam, Keyboard, Mouse, etc.)**
-- [x] Secure Boot **(Follow [this guide](https://github.com/perez987/OpenCore-and-UEFI-Secure-Boot))**
+- [x] Secure Boot **(Follow [this guide](https://github.com/perez987/OpenCore-and-UEFI-Secure-Boot), won't work with webdrivers)**
 - [ ] Type C Port
 - [ ] Display Ports **(couldn't check)**
 - [ ] DRM **(won't work on my GPU)**
