@@ -22,6 +22,7 @@
   - Realtek Gaming 2.5GbE Family Controller
 - NVIDIA GeForce GT 710 **(natively supported on Big Sur)**
 - NVIDIA GeForce GT 1030 **(install [webdrivers](https://elitemacx86.com/threads/how-to-enable-nvidia-webdrivers-on-macos-big-sur-and-monterey.926/))**
+- NVIDIA GeForce RTX 3060 Ti **(unsupported)**
 - Samsung SSD 970 EVO Plus 500GB **(Windows)**
 - WD Passport 500GB External HDD **(macOS)**
 - 2 x Seagate 1TB Barracuda 7200RPM HDD
